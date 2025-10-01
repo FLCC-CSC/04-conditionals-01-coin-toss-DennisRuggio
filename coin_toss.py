@@ -12,7 +12,7 @@ import random
 
 def main():
 
-    print('==== Coin Flipper ====')
+    print('===== Coin Flipper =====')
 
     coin_toss = random.randint(0,1)
 
