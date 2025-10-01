@@ -1,14 +1,28 @@
 # FILE NAME - coin_toss.py
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dennis Ruggio
+# DATE: 10/1/25
+# BRIEF DESCRIPTION:  coin_toss.py lab
 # 1. Make sure you fill out the comments above
 # 2. Write your code in the proper spot
 # 3. Be sure to answer the Reflection Questions and Attestation below
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
 
+def main():
+
+    print('==== Coin Flipper ====')
+
+    coin_toss = random.randint(0,1)
+
+    if coin_toss == 0:
+        print('Heads')
+
+    else:
+        print('Tails')
+
+main()
 
 
 
@@ -44,6 +58,7 @@ Tails
 
 1. What was the hardest part of completing this lab? 
 
+I feel like this one was a lot easier than the previous lab because we heavily focused on random in the previous chapter.
 
 
 
